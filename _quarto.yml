@@ -18,7 +18,7 @@ website:
       - href: index.html
         text: Home
       - href: about.html
-      - text: Our Team
+        text: Our Team
 
 format:
   html:
