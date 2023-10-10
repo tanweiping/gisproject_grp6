@@ -5,19 +5,19 @@ website:
   title: "Group 6"
   navbar:
     left:
-      - href: overview.qmd
+      - href: overview.html
         text: Overview
-      - href: methodology.qmd
+      - href: methodology.html
         text: Methodology
-      - href: analysis.qmd
+      - href: analysis.html
         text: Analysis
-      - href: findings.qmd
+      - href: findings.html
         text: Results & Discussions
         
     right:
-      - href: index.qmd
+      - href: index.html
         text: Home
-      - about.qmd
+      - about.html
 
 format:
   html:
