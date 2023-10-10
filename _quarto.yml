@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Group 6"
+  navbar:
+    left:
+      - href: overview.qmd
+        text: Overview
+      - href: methodology.qmd
+        text: Methodology
+      - href: analysis.qmd
+        text: Analysis
+      - href: findings.qmd
+        text: Results & Discussions
+        
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
