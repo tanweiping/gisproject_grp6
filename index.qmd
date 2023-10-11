@@ -3,3 +3,5 @@ title: "Accessibility Analysis and Mapping of Emergency Evacuation Centres and M
 ---
 
 Welcome to our GIS Project Web Site!
+
+Keep a look out for our updated project poster. Proceed to the "Overview" tab to view our Project Proposal.

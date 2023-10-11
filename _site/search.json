@@ -4,21 +4,42 @@
     "href": "overview.html",
     "title": "Overview",
     "section": "",
-    "text": "This is the overview"
+    "text": "On 10th September 2023, the worst ever flood disaster of Northern Africa in the last 130 years took place in politically-unstable Libya, caused by the collapse of Derna dam on 10th September 2023. More than a thousand deaths have been recorded, with vulnerable communities suffering from the aftermath of the disaster. Hence, it is important to explore how disasters like these could be managed in Libya. Typically, the Comprehensive Emergency Management (CEM) comprising four phases–mitigation, preparedness, response and recovery– is used to analyse disasters (Cova, 1999).\nOur project is concerned about the response and recovery efforts in Derna, Libya. Given the current infrastructure, how can rescue teams efficiently assist citizens while ensuring the city has enough quality evacuation facilities to minimise casualties in the future?\nIn this project, we will utilise Open Source data and satellite images to understand the flooding situation that happened in Libya, and then look into the current availability of facilities for the victims to safely evacuate to. Through analysis, we hope to provide some recommendations that would improve the flood disaster response situation in Derna, Libya."
   },
   {
-    "objectID": "overview.html#project-tasks",
-    "href": "overview.html#project-tasks",
+    "objectID": "overview.html#introduction",
+    "href": "overview.html#introduction",
     "title": "Overview",
-    "section": "Project tasks",
-    "text": "Project tasks"
+    "section": "",
+    "text": "On 10th September 2023, the worst ever flood disaster of Northern Africa in the last 130 years took place in politically-unstable Libya, caused by the collapse of Derna dam on 10th September 2023. More than a thousand deaths have been recorded, with vulnerable communities suffering from the aftermath of the disaster. Hence, it is important to explore how disasters like these could be managed in Libya. Typically, the Comprehensive Emergency Management (CEM) comprising four phases–mitigation, preparedness, response and recovery– is used to analyse disasters (Cova, 1999).\nOur project is concerned about the response and recovery efforts in Derna, Libya. Given the current infrastructure, how can rescue teams efficiently assist citizens while ensuring the city has enough quality evacuation facilities to minimise casualties in the future?\nIn this project, we will utilise Open Source data and satellite images to understand the flooding situation that happened in Libya, and then look into the current availability of facilities for the victims to safely evacuate to. Through analysis, we hope to provide some recommendations that would improve the flood disaster response situation in Derna, Libya."
+  },
+  {
+    "objectID": "overview.html#motivation",
+    "href": "overview.html#motivation",
+    "title": "Overview",
+    "section": "Motivation",
+    "text": "Motivation\nAnthropogenic climate change has increased the possibility of heavy rainfall in north-eastern Libya by 50 times. Along with poorly-built dams, Libya is particularly vulnerable to floods. This is further exacerbated by the lack of capacity to respond adequately to disasters, considering the poor socio-economic situation in Libya where the needs of citizens are largely not met. Therefore, we hope to use GIS to assist in flood response efforts in Libya to assist in humanitarian efforts and ensure the well-being of vulnerable communities in Derna, Libya."
+  },
+  {
+    "objectID": "overview.html#objectives",
+    "href": "overview.html#objectives",
+    "title": "Overview",
+    "section": "Objectives",
+    "text": "Objectives\nIn this project, we will focus on fulfilling the following objectives:\n\nUsing satellite-detected images to map out and understand the flood extent in Libya with respect to emergency facilities and affected sites.\nPerforming GIS Analysis to understand the most accessible routes for the rescue operations.\nRecommend suitable routes and facilities suitable for the victim's escape."
   },
   {
     "objectID": "overview.html#data",
     "href": "overview.html#data",
     "title": "Overview",
     "section": "Data",
-    "text": "Data"
+    "text": "Data\nCRS: EPSG:2080\nFor base map:\n\nhttps://elearn.smu.edu.sg/d2l/le/content/360586/viewContent/2264710/View (Derna_city_250m_hexagon)\n\nFor flood extent:\n\nhttps://data.humdata.org/dataset/flood-impact-assessment-in-derna-city-centre-east-province-libya \n\nWith respect to facilities: \n\nRoads (https://data.humdata.org/dataset/lby_roads_streets)\nMedical Facilities (https://data.humdata.org/dataset/hotosm_lby_health_facilities)\nSchool Facilities (https://data.humdata.org/dataset/hotosm_lby_education_facilities)"
+  },
+  {
+    "objectID": "overview.html#project-timeline",
+    "href": "overview.html#project-timeline",
+    "title": "Overview",
+    "section": "Project Timeline",
+    "text": "Project Timeline"
   },
   {
     "objectID": "about.html",
@@ -32,6 +53,6 @@
     "href": "index.html",
     "title": "Accessibility Analysis and Mapping of Emergency Evacuation Centres and Medical Services",
     "section": "",
-    "text": "Welcome to our GIS Project Web Site!"
+    "text": "Welcome to our GIS Project Web Site!\nKeep a look out for our updated project poster. Proceed to the “Overview” tab to view our Project Proposal."
   }
 ]
