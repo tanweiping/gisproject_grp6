@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Group 6 – Overview</title>
+<title>Group 6 - Overview</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,10 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -109,6 +111,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -151,7 +154,58 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-true
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>On 10th September 2023, the worst ever flood disaster of Northern Africa in the last 130 years took place in politically-unstable Libya, caused by the collapse of Derna dam on 10th September 2023. More than a thousand deaths have been recorded, with vulnerable communities suffering from the aftermath of the disaster. Hence, it is important to explore how disasters like these could be managed in Libya. Typically, the Comprehensive Emergency Management (CEM) comprising four phases–mitigation, preparedness, response and recovery– is used to analyse disasters (Cova, 1999).</p>
+<p>Our project is concerned about the response and recovery efforts in Derna, Libya. Given the current infrastructure, <strong>how can rescue teams efficiently assist citizens while ensuring the city has enough quality evacuation facilities to minimise casualties in the future</strong>?</p>
+<p>In this project, we will utilise Open Source data and satellite images to understand the flooding situation that happened in Libya, and then look into the current availability of facilities for the victims to safely evacuate to. Through analysis, we hope to provide some recommendations that would improve the flood disaster response situation in Derna, Libya.&nbsp;</p>
+</section>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>Anthropogenic climate change has increased the possibility of heavy rainfall in north-eastern Libya by 50 times. Along with poorly-built dams, Libya is particularly vulnerable to floods. This is further exacerbated by the lack of capacity to respond adequately to disasters, considering the poor socio-economic situation in Libya where the needs of citizens are largely not met. Therefore, we hope to <strong>use GIS to assist in flood response efforts in Libya to assist in humanitarian efforts and ensure the well-being of vulnerable communities in Derna, Libya.</strong></p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<p>In this project, we will focus on fulfilling the following objectives:</p>
+<ol type="1">
+<li><p>Using satellite-detected images to understand the flood extent in Libya with respect to emergency facilities and affected sites, creating a map to set the context.&nbsp;</p></li>
+<li><p>Performing GIS Analysis to understand the current accessibility of evacuation centres through mapping the:</p>
+<ol type="a">
+<li><p>The distribution of accessibility to healthcare facilities and evacuation centres (schools) in the form of a choropleth map&nbsp;</p></li>
+<li><p>The service areas of healthcare facilities and evacuation centres in the form of a buffer map&nbsp;</p></li>
+</ol></li>
+<li><p>Suggesting other flood management methods that the Derna government could perhaps adopt, as part of our analysis.&nbsp;</p></li>
+</ol>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p><strong>CRS</strong>: EPSG: 3177</p>
+<p><strong>For base map:</strong></p>
+<ul>
+<li><a href="https://elearn.smu.edu.sg/d2l/le/content/360586/viewContent/2264710/View" class="uri">https://elearn.smu.edu.sg/d2l/le/content/360586/viewContent/2264710/View</a> (Derna_city_250m_hexagon)</li>
+</ul>
+<p><strong>Raster data:</strong>&nbsp;</p>
+<ul>
+<li><a href="https://data.humdata.org/dataset/worldpop-population-density-for-libya" class="uri">https://data.humdata.org/dataset/worldpop-population-density-for-libya</a> (Population Density of Libya)</li>
+</ul>
+<p><strong>For flood extent:</strong></p>
+<ul>
+<li><p><a href="https://data.humdata.org/dataset/buildings-footprint-floods-derna-libya" class="uri">https://data.humdata.org/dataset/buildings-footprint-floods-derna-libya</a></p></li>
+<li><p><a href="https://data.humdata.org/dataset/flood-impact-assessment-in-derna-city-centre-east-province-libya" class="uri">https://data.humdata.org/dataset/flood-impact-assessment-in-derna-city-centre-east-province-libya</a>&nbsp;</p></li>
+<li><p><a href="https://data.humdata.org/dataset/worldpop-population-density-for-libya" class="uri">https://data.humdata.org/dataset/worldpop-population-density-for-libya</a></p></li>
+</ul>
+<p><strong>With respect to facilities:</strong>&nbsp;</p>
+<ul>
+<li><p>Current roads (<a href="https://data.humdata.org/dataset/lby_roads_streets" class="uri">https://data.humdata.org/dataset/lby_roads_streets</a>)</p></li>
+<li><p>Medical Facilities (<a href="https://data.humdata.org/dataset/hotosm_lby_health_facilities" class="uri">https://data.humdata.org/dataset/hotosm_lby_health_facilities</a>)</p></li>
+<li><p>School Facilities (<a href="https://data.humdata.org/dataset/hotosm_lby_education_facilities" class="uri">https://data.humdata.org/dataset/hotosm_lby_education_facilities</a>)</p></li>
+</ul>
+</section>
+<section id="project-timeline" class="level2">
+<h2 class="anchored" data-anchor-id="project-timeline">Project Timeline</h2>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -174,6 +228,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
