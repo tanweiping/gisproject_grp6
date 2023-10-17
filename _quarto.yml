@@ -10,9 +10,9 @@ website:
       - href: methodology.html
         text: Methodology
       - href: analysis.html
-        text: Analysis
-      - href: findings.html
-        text: Results & Discussions
+        text: Results & Analysis
+      - href: lesson.html
+        text: Lesson Learnt
         
     right:
       - href: index.html
@@ -22,9 +22,10 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: darkly
     css: styles.css
     toc: true
-
+    dark: darkly
+    light: flatly
 editor: visual
 
