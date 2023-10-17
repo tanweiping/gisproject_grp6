@@ -4,6 +4,8 @@ project:
 website:
   title: "Group 6"
   navbar:
+    background: "#835a9c"
+    
     left:
       - href: overview.html
         text: Overview
@@ -19,7 +21,7 @@ website:
         text: Home
       - href: about.html
         text: Our Team
-
+        
 format:
   html:
     theme:
@@ -27,5 +29,5 @@ format:
       light: flatly
     css: styles.css
     toc: true
-editor: visual
 
+editor: visual

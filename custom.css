@@ -1,0 +1,10 @@
+/* Styles for the "darkly" theme navbar */
+.darkly .navbar {
+    background-color: #343a40; /* Customize the background color for the dark theme navbar */
+    color: white; /* Customize the text color for the dark theme navbar */
+}
+
+/* Set the body background color to white for the "light" theme */
+.darkly.light body {
+    background-color: white; /* Set the body background color to white for the light theme */
+}
