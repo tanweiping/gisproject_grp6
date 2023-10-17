@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-About this site
+Here are our team members!
 
-```{r}
-1 + 1
-```
+1.  May
+2.  Wei Ping
+3.  Hazyra
