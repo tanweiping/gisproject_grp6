@@ -49,6 +49,27 @@
     "text": "Project Timeline"
   },
   {
+    "objectID": "overview.html#references",
+    "href": "overview.html#references",
+    "title": "Overview",
+    "section": "References",
+    "text": "References\nCova TJ (1999) GIS in emergency management. In: Longley MFGPA, Maguire DJ, Rhind DW (eds) Geographical information systems: principles, techniques, applications, and management. Wiley, New York, pp 845–858"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Accessibility Analysis and Mapping of Emergency Evacuation Centres and Medical Services",
+    "section": "",
+    "text": "Welcome to our GIS Project Web Site!\nKeep a look out for our updated project poster. Proceed to the “Overview” tab to view our Project Proposal."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Here are our team members!\n\nMay\nWei Ping\nHazyra"
+  },
+  {
     "objectID": "analysis.html",
     "href": "analysis.html",
     "title": "Results & Analysis",
@@ -91,17 +112,10 @@
     "text": "5. Future work\nOur project has focused on the recovery and response aspects of flood management, but disaster management consists of four phases– preparedness, mitigation, response and recovery. Hence, to ensure a holistic and effective approach towards flood management, work could be expanded to cover these areas as well. \nPreparedness\nBased on our current analysis, it is based on the flood that happened recently. However, the flood extent could differ in the future. The history of floods could be studied via historical data and topographic data so as to predict flood frequency in Derna. More detailed hazard mapping could also be done to show areas expected to be covered with floodwaters for various situations. To complement the work of urban planners, sufficient sensor technology and infrastructure that warns the residents of incoming disasters can be employed. Ideally, the authorities could use existing communication networks and deploy manpower to evacuate people to safety when a warning is issued. \nMitigation\nWe recommend that the authorities should improve on their mitigation strategies because it will have a knock-on effect on response and recovery efforts, in terms of accessibility. Specifically, it is vital to ensure that infrastructure can withstand the floodwaters. Building codes and standards need to be enforced for structures within the floodplain. They must be engineered to withstand the high velocity of flood waters and are high enough off the ground to reduce the risk of contact with water. This can be extended to other disasters, such as earthquakes. Authorities should reinforce the infrastructure of key facilities such as healthcare facilities and places that could act as evacuation centres. However, because of the conflict in Libya, it might be difficult for this to be effectively implemented, and the Libyan authorities might not deem this a priority.  \nAs mentioned, the flood is caused by the collapse of the dams. While the construction of dams may be able to prevent flooding, it may backfire as seen in this case. Hence, authorities need to constantly monitor the condition of the dam and ensure that it is built adequately. According to BBC, it was said that even though the local institutions and government were aware of the poorly maintained and built dams which could potentially pose danger to the citizens, they did not put in sufficient effort to intervene and prevent disasters that could possibly happen, resulting in the deaths of thousands of people.\nAs a coastal city and to prepare for other types of disasters (eg. tsunami) which may originate from the sea and coastal area instead of the river upstream, there could also be hard engineering measures such as the building of sea walls. \nResponse and Recovery\nOther than that, there has to be sufficient education towards people and authorities about flood disaster evacuation. As shown from our analysis, there could be a lack of awareness among the residents, and as a result, healthcare facilities and education facilities became destroyed and unavailable. \nAccording to a BBC report, it was reported that the evacuation efforts in Derna City were lacklustre. Even though there was help to assist in the evacuation, there was no clear list of areas to evacuate to nor directions . Furthermore, there were people who lived near the river bodies but were told to stay at home and even more worryingly, there were people who had been evacuated to dangerous places that fell within the flood extent. This placed them in life-endangering situations.\nWork could be done to map out possible evacuation routes for citizens from hotspots where people mostly gather (e.g. shopping centres). This will aid citizens in having greater awareness. Aside from that, flooding may also bring about secondary effects such as the breakdown of communication services and water pollution. Hence, work could also be done to investigate the water and electrical systems in Derna to predict the possible impact and hence explore measures."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "lesson.html",
+    "href": "lesson.html",
+    "title": "Lesson Learnt",
     "section": "",
-    "text": "Here are our team members!\n\nMay\nWei Ping\nHazyra"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Accessibility Analysis and Mapping of Emergency Evacuation Centres and Medical Services",
-    "section": "",
-    "text": "Welcome to our GIS Project Web Site!\nKeep a look out for our updated project poster. Proceed to the “Overview” tab to view our Project Proposal."
+    "text": "Our team had a great experience learning about how to synthesise and apply the various GIS analysis toolbox that we have learned in class to a real-world use case. The flood that has happened made us realise the importance to be more socially conscious about what is happening beyond our homeland boundaries. This project made us learn that we can leverage on GIS to be able to ensure that the city is sufficiently prepared for a future man-made or natural disaster. Such technologies and analysis methods have the ability to save thousands of lives and put us an inch forward in trying to make the world a better place.\nWhile we are not able to control the efficiency of the government in implementing certain changes in the city. From our analysis, we learn the importance of having sufficient facilities for healthcare aid as well as shelters that people can evacuate to should there be a flooding situation. This should also be accompanied by sufficient pedestrian and vehicular networks for people to safely evacuate."
   }
 ]
