@@ -2,7 +2,7 @@
 title: "Accessibility Analysis and Mapping of Emergency Evacuation Centres and Medical Services"
 ---
 
-Welcome to our GIS Project Web Site!
+Welcome to our GIS Project Web
 
 Here is an outlook of our project:
 
