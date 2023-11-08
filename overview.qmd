@@ -8,7 +8,7 @@ On 10th September 2023, the worst ever flood disaster of Northern Africa in the 
 
 Our project is concerned about the response and recovery efforts in Derna, Libya. Given the current infrastructure, **how can rescue teams efficiently assist citizens while ensuring the city has enough quality evacuation facilities to minimise casualties in the future**?
 
-In this project, we will utilise Open Source data and satellite images to understand the flooding situation that happened in Libya, and then look into the current availability of facilities for the victims to safely evacuate to. Through analysis, we hope to provide some recommendations that would improve the flood disaster response situation in Derna, Libya. 
+In this project, we will utilise Open Source data and digital elevation model (DEM) to understand the flooding situation that happened in Libya, and then look into the current availability of facilities for the victims to safely evacuate to. Through analysis, we hope to provide some recommendations that would improve the flood disaster response situation in Derna, Libya. 
 
 ## Motivation
 
@@ -50,10 +50,16 @@ In this project, we will focus on fulfilling the following objectives:
 
 **With respect to facilities:** 
 
--   Current roads (<https://data.humdata.org/dataset/lby_roads_streets>)
+-   Current roads (https://data.humdata.org/dataset/hotosm_lby_roads)
 
 -   Medical Facilities (<https://data.humdata.org/dataset/hotosm_lby_health_facilities>)
 
 -   School Facilities (<https://data.humdata.org/dataset/hotosm_lby_education_facilities>)
 
+## Scope of Work
+
+We utilised Open Source data and digital elevation model (DEM) to understand the flooding situation that happened in Derna. We assembled data mainly provided by Humanitarian Data Exchange and then look into the current accessibility of facilities for victims to safely evacuate to and/or seek medical attention using GIS Analysis toolbox.
+
 ## Project Timeline
+
+![](Images/GIS Project Gantt Chart.png){fig-align="center"}
