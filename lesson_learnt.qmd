@@ -1,7 +1,0 @@
----
-title: "Lesson Learnt"
----
-
-Our team had a great experience learning about how to synthesise and apply the various GIS analysis toolbox that we have learned in class to a real-world use case. The flood that has happened made us realise the importance to be more socially conscious about what is happening beyond our homeland boundaries. This project made us learn that we can leverage on GIS to be able to ensure that the city is sufficiently prepared for a future man-made or natural disaster. Such technologies and analysis methods have the ability to save thousands of lives and put us an inch forward in trying to make the world a better place.
-
-While we are not able to control the efficiency of the government in implementing certain changes in the city. From our analysis, we learn the importance of having sufficient facilities for healthcare aid as well as shelters that people can evacuate to should there be a flooding situation. This should also be accompanied by sufficient pedestrian and vehicular networks for people to safely evacuate.

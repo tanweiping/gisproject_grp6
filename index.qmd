@@ -4,4 +4,6 @@ title: "Accessibility Analysis and Mapping of Emergency Evacuation Centres and M
 
 Welcome to our GIS Project Web Site!
 
-Keep a look out for our updated project poster. Proceed to the "Overview" tab to view our Project Proposal.
+Here is an outlook of our project:
+
+![](Images/GIS Poster 1 (converted).jpg){fig-align="center"}
