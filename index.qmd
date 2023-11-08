@@ -6,4 +6,4 @@ Welcome to our GIS Project Website!
 
 Here is an outlook of our project:
 
-![](Images/GIS Poster 1 (converted).jpg){fig-align="center"}
+![](Images/GIS Poster.png){fig-align="center"}

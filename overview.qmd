@@ -62,7 +62,7 @@ We utilised Open Source data and digital elevation model (DEM) to understand the
 
 ## Project Timeline
 
-![](Images/GIS Project Gantt Chart.png){fig-align="center"}
+![](Images/GIS%20Project%20Gantt%20Chart.png){fig-align="center"}
 
 ## **References**
 

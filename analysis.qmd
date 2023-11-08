@@ -33,8 +33,8 @@ As we can see from the map, there are 6 healthcare facilities and 5 evacuation s
 #### **2A Health facilities \[on vehicles\]**
 
 |                                                                                                                                 |                                                                                                                            |
-|------------------------------------|------------------------------------|
-|  **Pre-Flood**                                                                                                                  |  **Post-Flood**                                                                                                            |
+|---------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Pre-Flood**                                                                                                                   | **Post-Flood**                                                                                                             |
 | ![](Images/%5Bmap2%5D%20accessibility/Healthcare%20Facility%20Accessibility%20on%20vehicle%20%5Bno%20flood%5D.jpg){width="320"} | ![](Images/%5Bmap2%5D%20accessibility/Healthcare%20Facility%20Accessibility%20on%20vehicle%20%5Bflood%5D.jpg){width="339"} |
 
 Assuming that the identified healthcare facilities are up and running, the vehicle access to healthcare facilities seems adequate in Derna city in a normal situation where there is no flood. When there are no exceptions to environmental conditions, people's movements are not impeded and the hospitals are accessible for people who live near it. However, for those who live far away from the hospitals, they would need to use their vehicles to travel longer distances. Despite that, it is evident that the road connectivity is generally vast and connects every edge of the city well.
@@ -47,9 +47,9 @@ This situation reflects the need to have **more healthcare facilities that are s
 
 #### 2B Health facilities \[on foot\]
 
-|  Pre-Flood                                                                                             |  Pre-Flood                                                                                          |
-|------------------------------------|------------------------------------|
-| ![](Images/[map2] accessibility/Healthcare Facility Accessibility on foot [no flood].jpg){width="335"} | ![](Images/[map2] accessibility/Healthcare Facility Accessibility on foot [flood].jpg){width="323"} |
+| Pre-Flood                                                                                                                    | Pre-Flood                                                                                                               |
+|------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| ![](Images/%5Bmap2%5D%20accessibility/Healthcare%20Facility%20Accessibility%20on%20foot%20%5Bno%20flood%5D.jpg){width="335"} | ![](Images/%5Bmap2%5D%20accessibility/Healthcare%20Facility%20Accessibility%20on%20foot%20%5Bflood%5D.jpg){width="323"} |
 
 In the pre-flood situation, the accessibility to the healthcare facilities on foot shows a concerning phenomenon as even when there is no flood and impedance to the movement of people in Derna city, the healthcare facilities remain inaccessible. This is because there are a lot of roads that are not suitable for pedestrians to walk on and passing through these roads might be dangerous for the pedestrians and drivers who would need to keep a lookout for pedestrians who might just walk on roads that are not meant for them. This is especially prevalent in the eastern side of Derna city where the citizens do not have accessible and safe pathways to navigate to the healthcare facilities like hospitals and clinics should they need to as they are mainly concentrated in the central area that surrounds Wadi Derna. For the people who stay near the respective healthcare facilities, they seem to face no issue and there are ample roads that are suitable for them to navigate their way. This implies that there is accessibility inequality whereby people living in the East do not have ample pedestrian roads suitable for them to access the nearby healthcare facilities safely.
 
@@ -61,15 +61,15 @@ While the accessibility to the remaining healthcare facilities remain accessible
 
 [**Vehicle VS On Foot**]{.underline}
 
-Comparing between the accessibility between roads that available for vehicular and on foot travels to the healthcare facilities, we can clearly see that there are more roads available for vehicles. Realistically in a flood evacuation, we won\'t expect everyone to have vehicles to access healthcare resources especially when Derna City is in a developing country. 
+Comparing between the accessibility between roads that available for vehicular and on foot travels to the healthcare facilities, we can clearly see that there are more roads available for vehicles. Realistically in a flood evacuation, we won't expect everyone to have vehicles to access healthcare resources especially when Derna City is in a developing country. 
 
 Therefore, there should be **changes to the existing roads infrastructure to open up alternative routes that are suitable for both humans and vehicular movements**. This will definitely be a long-term pursuit but it has to be implemented to accommodate to the needs for both groups of users.
 
-#### 2C Education on vehicle 
+#### 2C Education on vehicle
 
-|  Pre-Flood                                                                                  |  Post-Flood                                                                              |
-|------------------------------------|------------------------------------|
-| ![](Images/[map2] accessibility/Education Facility Accessibility on vehicle [no flood].jpg) | ![](Images/[map2] accessibility/Education Facility Accessibility on vehicle [flood].jpg) |
+| Pre-Flood                                                                                                         | Post-Flood                                                                                                   |
+|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| ![](Images/%5Bmap2%5D%20accessibility/Education%20Facility%20Accessibility%20on%20vehicle%20%5Bno%20flood%5D.jpg) | ![](Images/%5Bmap2%5D%20accessibility/Education%20Facility%20Accessibility%20on%20vehicle%20%5Bflood%5D.jpg) |
 
 The distribution of education facilities which could potentially act as evacuation centres to host displaced residents is uneven. The West side of Derna City only has 1 education facility that the residents living in that area will most likely congregate at, potentially causing a strain in resources. 
 
@@ -81,9 +81,9 @@ The situation might potentially be worsened if residents living or working near 
 
 #### **2D Education on foot**
 
-| Pre-Flood                                                                                | Post-Flood                                                                            |
-|------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| ![](Images/[map2] accessibility/Education Facility Accessibility on foot [no flood].jpg) | ![](Images/[map2] accessibility/Education Facility Accessibility on foot [flood].jpg) |
+| Pre-Flood                                                                                                      | Post-Flood                                                                                                |
+|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| ![](Images/%5Bmap2%5D%20accessibility/Education%20Facility%20Accessibility%20on%20foot%20%5Bno%20flood%5D.jpg) | ![](Images/%5Bmap2%5D%20accessibility/Education%20Facility%20Accessibility%20on%20foot%20%5Bflood%5D.jpg) |
 
 The accessibility to the education facilities on foot shows that when there is no occurrence of flood and movement in Derna is not impeded, the education facilities which serve as evacuation centres are by and large accessible to people. However, for the people who reside near the bridge that connects the west and east side of Derna, their trip to the education facilities might pose some danger as roads there are not completely accessible via foot and consist of large highways. 
 
@@ -95,7 +95,7 @@ This is especially bad for families with young children who may not have the abi
 
 ### Map 3: Service Areas
 
-![](Images/[map3] service area/healthcare vehicle.png){fig-align="center" width="435"}
+![](Images/%5Bmap3%5D%20service%20area/healthcare%20vehicle.png){fig-align="center" width="435"}
 
 [**Within the flood extent**]{.underline}
 
@@ -105,7 +105,7 @@ From this map, it can be seen that even if the health facilities in the area cov
 
 On the west side of the flood extent, ambulance services are able to cover most of the West area within 5 minutes should there be any emergency considering that most roads will not be affected by flood, and that there are 2 hospital facilities. However, this is severely lacking in the East. A huge area is not covered and that could possibly lead to a delay of medical attention provided to the residents in that area. Given that the Eastern area is highly populated, the delay in medical attention might result in severe repercussions for the victims. The ambulance services may not be able to bring patients to the hospital fast enough to rescue them since they might get impeded by secondary effects of the flood, for example the rest of the highway being inaccessible due to a part being broken, or a bridge being broken, etc.
 
-![](Images/[map3] service area/healthcare foot.png){fig-align="center" width="435"}
+![](Images/%5Bmap3%5D%20service%20area/healthcare%20foot.png){fig-align="center" width="435"}
 
 In the worst case scenario, telecommunications may be shut down during a disaster and residents have no way to call for medical attention. They may also not have access to a car. Hence, they may have to resort to travelling to the hospitals by foot in desperation. 
 
@@ -113,11 +113,11 @@ Furthermore, hospitals may not have enough ambulances or vehicles to dispatch du
 
 Because of the slow speed, walking is largely impractical during an emergency. This is also shown by the small service area of each hospital by foot. Paramedics may not be able to reach victims fast enough before they get submerged by the flood waters, especially for facilities within the flood extent. This is also based on the assumption that these healthcare facilities can partly withstand the flood. 
 
-![](Images/[map3] service area/evacuation vehicle.png){fig-align="center" width="435"}
+![](Images/%5Bmap3%5D%20service%20area/evacuation%20vehicle.png){fig-align="center" width="435"}
 
 Because of the extensive road network, the service areas of all the evacuation facilities combined together is quite comprehensive and covers quite a large extent outside of the flood extent. The concern might be with regards to the people who are trapped in the flood waters who rescue teams might not be able to reach within 5-minutes, causing them to be swept away and disappear. Furthermore, this is assuming that there are sufficient rescue vehicles to properly serve all the residents. Otherwise, the minimal number of rescue vehicles might mean that several trips have to be taken. 
 
-![](Images/[map3] service area/evacuation foot.png){fig-align="center" width="435"}
+![](Images/%5Bmap3%5D%20service%20area/evacuation%20foot.png){fig-align="center" width="435"}
 
 Due to the lack of a well-connected foot network for pedestrians, it is expected that the extend of the outreach from the education facilities within 5 minutes is rather limited.
 
@@ -127,11 +127,11 @@ This will not be a huge concern as most people would be travelling to the educat
 
 Overall, we can conclude that post-flood response and recovery is largely lacking in Derna. This is considering the general poor accessibility to key facilities like healthcare and evacuation as shown in our previous analyses. 
 
-Though the road network is extensive and largely sufficient, the issue lies in the facilities themselves. Even during the pre-flood situation, the number of facilities may seem decent, but they are insufficient as seen from our analysis due to the existing facilities\' vulnerability to flood waters. Healthcare and education facilities need to be increased especially for areas outside the flood extent so as to ensure that survivors can be directed and have their needs met, reducing the amount of casualties. As a side note, perhaps roads could be constructed to serve both vehicles and pedestrians alike, improving the accessibility, should an alternative mode of transportation ought to be taken. 
+Though the road network is extensive and largely sufficient, the issue lies in the facilities themselves. Even during the pre-flood situation, the number of facilities may seem decent, but they are insufficient as seen from our analysis due to the existing facilities' vulnerability to flood waters. Healthcare and education facilities need to be increased especially for areas outside the flood extent so as to ensure that survivors can be directed and have their needs met, reducing the amount of casualties. As a side note, perhaps roads could be constructed to serve both vehicles and pedestrians alike, improving the accessibility, should an alternative mode of transportation ought to be taken. 
 
 This is especially in terms of walkability and accessibility via foot. During a disaster, vehicles may be inaccessible and residents may have no choice but resort to walking. However, this meant reduced accessibility as hospitals and evacuation facilities are well beyond walking distance. Even if rescue teams are dispatched, their reach is limited because of the location of the small number of facilities and may not be able to reach the residents in time. In disasters like these, time is of the essence. 
 
-We find it important to analyse the accessibility of vehicles in terms of walking as well because residents may be swept away to areas far from their homes with no access to their vehicles during a catastrophic flooding event. As a secondary effect, there may be a disruption of other services, such as internet connectivity and telecommunications. This may impede citizens\' ability to contact the relevant authorities, such as ambulance services and rescue services, leaving them little choice but to make their way to the healthcare and evacuation centres themselves without the ability to use a vehicle. However, since Derna City\'s terrain is mostly sandy, authorities\' help is crucial in ensuring the safety of the victims on the journey to these facilities as well. However, if the rescue teams are unable to get there fast enough, the Derna residents\' lives will be endangered. 
+We find it important to analyse the accessibility of vehicles in terms of walking as well because residents may be swept away to areas far from their homes with no access to their vehicles during a catastrophic flooding event. As a secondary effect, there may be a disruption of other services, such as internet connectivity and telecommunications. This may impede citizens' ability to contact the relevant authorities, such as ambulance services and rescue services, leaving them little choice but to make their way to the healthcare and evacuation centres themselves without the ability to use a vehicle. However, since Derna City's terrain is mostly sandy, authorities' help is crucial in ensuring the safety of the victims on the journey to these facilities as well. However, if the rescue teams are unable to get there fast enough, the Derna residents' lives will be endangered. 
 
 Other modes of emergency transportation, such as ambulance boats, or helicopters to transport resources like food and clean water, needs to be explored to prepare for the worst scenario where roads are completely destroyed and inaccessible.
 
@@ -141,19 +141,19 @@ From our analysis, given the current situation and geography of post-flood servi
 
 However, the truth is that due to the lack of resources that Libya has as a nation, there are unlikely to be rescue teams sent out in such a short period of time. Libya relies heavily on international aid and humanitarian efforts from other countries to help victims of floods. However, the countries closest to Libya-- Egypt and Tunisia-- are not the wealthiest. 
 
-Looking at the big picture, it should also be noted that, unlike other well-developed cities like ones in the US, there are no nearby urban areas that citizens can evacuate to. This is because Derna\'s surroundings are on one side the coast, and the other side, the desert. 
+Looking at the big picture, it should also be noted that, unlike other well-developed cities like ones in the US, there are no nearby urban areas that citizens can evacuate to. This is because Derna's surroundings are on one side the coast, and the other side, the desert. 
 
-## **4. Limitations of project** 
+## **4. Limitations of project**
 
 Our project has several limitations. They are mainly concerned with the availability and accuracy of data. 
 
 Upon inspecting the initial data downloaded from the open-source site Humanitarian Data Exchange, we noticed that there might be missing data points. Hence, we sought to correct them through comparison with other sources of data. 
 
-As a complement to accessibility analysis, we were unable to gather data about the availability of resources that each healthcare facility had, i.e number of medical staff, amount of vacancies/hospital beds. This applies to evacuation shelters as well, as we do not know the capacity of each school. Certain schools may differ greatly in its capacity and hence affect its ability to allow citizens to vacate to that area. This might impede a resident\'s needs from being met if they are turned down by a medical facility or evacuation centre due to the lack of resources and to prevent overcrowding.
+As a complement to accessibility analysis, we were unable to gather data about the availability of resources that each healthcare facility had, i.e number of medical staff, amount of vacancies/hospital beds. This applies to evacuation shelters as well, as we do not know the capacity of each school. Certain schools may differ greatly in its capacity and hence affect its ability to allow citizens to vacate to that area. This might impede a resident's needs from being met if they are turned down by a medical facility or evacuation centre due to the lack of resources and to prevent overcrowding.
 
 Perhaps an analysis concerning the capacity of these facilities would allow our analysis to be more comprehensive.  
 
-## **5. Future work** 
+## **5. Future work**
 
 Our project has focused on the recovery and response aspects of flood management, but disaster management consists of four phases-- preparedness, mitigation, response and recovery. Hence, to ensure a holistic and effective approach towards flood management, work could be expanded to cover these areas as well. 
 
