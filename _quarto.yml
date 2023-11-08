@@ -13,7 +13,7 @@ website:
         text: Methodology
       - href: analysis.html
         text: Results & Analysis
-      - href: lesson.html
+      - href: lesson_learnt.html
         text: Lesson Learnt
         
     right:

@@ -63,3 +63,7 @@ We utilised Open Source data and digital elevation model (DEM) to understand the
 ## Project Timeline
 
 ![](Images/GIS Project Gantt Chart.png){fig-align="center"}
+
+## **References**
+
+Cova TJ (1999) GIS in emergency management. In: Longley MFGPA, Maguire DJ, Rhind DW (eds) Geographical information systems: principles, techniques, applications, and management. Wiley, New York, pp 845--858
