@@ -50,7 +50,7 @@ In this project, we will focus on fulfilling the following objectives:
 
 **With respect to facilities:** 
 
--   Current roads (https://data.humdata.org/dataset/hotosm_lby_roads)
+-   Current roads (<https://data.humdata.org/dataset/hotosm_lby_roads>)
 
 -   Medical Facilities (<https://data.humdata.org/dataset/hotosm_lby_health_facilities>)
 
