@@ -11,7 +11,7 @@ website:
         text: Overview
       - href: methodology.html
         text: Methodology
-      - href: methodology.html
+      - href: analysis.html
         text: Results & Analysis
       - href: lesson.html
         text: Lesson Learnt
