@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Group 6 – about</title>
+<title>Group 6 - Methodology</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./methodology.html" rel="" target="">
+    <a class="nav-link active" href="./methodology.html" rel="" target="" aria-current="page">
  <span class="menu-text">Methodology</span></a>
   </li>  
   <li class="nav-item">
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">Our Team</span></a>
   </li>  
 </ul>
@@ -122,38 +122,51 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#github-repository" id="toc-github-repository" class="nav-link active" data-scroll-target="#github-repository">GitHub Repository</a></li>
-  <li><a href="#team-members" id="toc-team-members" class="nav-link" data-scroll-target="#team-members">Team Members</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Methodology</h1>
+</div>
 
 
-<section id="github-repository" class="level3">
-<h3 class="anchored" data-anchor-id="github-repository">GitHub Repository</h3>
-<p>You may access our GitHub repository <a href="https://github.com/tanweiping/gisproject_grp6">here</a>.</p>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="task-1-brainstorm-on-scope-based-on-theme-and-context-of-study" class="level4">
+<h4 class="anchored" data-anchor-id="task-1-brainstorm-on-scope-based-on-theme-and-context-of-study"><strong>Task 1: Brainstorm on scope based on theme and context of study</strong></h4>
+<p>From the 3 subtopics given to us, we chose to do on Post-Flood Accessibility of Derna, Libya as we are concerned with the landscape of Derna. As mentioned in our motivation, Libya is particularly vulnerable to floods, given their geographic location, therefore there is some expectation that certain disasters could potentially happen, such as tsunamis.</p>
+<p>Given the limited capacity to respond effectively to disasters in Libya, compounded by the challenging socio-economic conditions that often leave citizens’ needs unmet, we aim to leverage GIS for valuable insights. These insights can potentially aid humanitarian efforts, contributing to the well-being of vulnerable communities in Derna, Libya. While external rescue teams play a crucial role, empowering citizens with preparedness knowledge is equally vital. Understanding the city’s existing infrastructure further underscores the significance of being well-informed and prepared for such challenges.</p>
 </section>
-<section id="team-members" class="level3">
-<h3 class="anchored" data-anchor-id="team-members">Team Members</h3>
-<p>Here are our team members!</p>
-<ol type="1">
-<li>May</li>
-<li>Wei Ping</li>
-<li>Hazyra</li>
-</ol>
+<section id="task-2-gather-map-data-from-the-humanitarian-data-exchange" class="level4">
+<h4 class="anchored" data-anchor-id="task-2-gather-map-data-from-the-humanitarian-data-exchange"><strong>Task 2: Gather map data from the Humanitarian Data Exchange</strong></h4>
+<p>We first gather GIS data layers (i.e.&nbsp;Education, Healthcare Facilities, Libya Population Density DEM, road network), which can be downloaded from 'Libya Floods' at the Humanitarian Data Exchange portal. These layers are in the WGS_84, the default CRS (Coordinate Reference System), which we must convert to "EPSG:3177 - LGD2006/ Libya TM” for the Derna region.</p>
+<p>Additionally, apart from relying on the OpenStreetMap layer that can be found on GIS itself, we also relied on Google Maps as supplementary data for the road network layer we got from the Humanitarian Data Exchange website. This is because, the road network had broken paths, which, would make it harder to analyse the differences between when it is flooded and when it is not.</p>
+<p><strong>Populate GeoPackage</strong></p>
+<p>Next, layers that were downloaded from the Humanitarian Data Exchange portal would be saved into the GeoPackage before we do symbolisation for the different layers.</p>
+<p><strong>Geo-process chosen datasets, do vector Interpretation and symbolisation</strong></p>
+<p>Without a doubt, because of the need to have supplementary data (i.e.&nbsp;Google Maps) for our road layer, we would need to pre-process the data, and we would do so by using functions like 'CLIP' to clip all the layers to the given analytical hexagon layer of Derna. However, the actual analytical hexagon layer that we would be using would be the one we generated. This is because the given analytical hexagon layer itself is 250m in size, which is far too big in our group's opinion as there were also facilities that were placed into 1 hexagon, making it harder to analyse, thus reducing the same to 100m. Symbolisation is a given such that we would need to distinguish between the schools (i.e.&nbsp;education facilities) and the healthcare facilities.&nbsp;</p>
+<p><strong>Multiple Maps Generated</strong></p>
+<p>We decided to generate <strong>three</strong> types of maps:&nbsp;</p>
+<p>1 - Overview of Derna's Flood</p>
+<p>2 - Accessibility of Demand (by foot and by vehicle)</p>
+<p>3 - Service Areas (that can reach its surrounding areas within 5 minutes)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Images/GrpPoster.jpg" class="img-fluid figure-img"></p>
+<p><img src="Images/GIS Methodology.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-<p>We would like to thank Prof Kam Tin Seong for his close guidance in this project!</p>
 
 
 </section>

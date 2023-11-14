@@ -2,13 +2,13 @@
 title: "Methodology"
 ---
 
-#### **Task 1: Brainstorm on scope based on theme and context of study**
+### **Task 1: Brainstorm on scope based on theme and context of study**
 
 From the 3 subtopics given to us, we chose to do on Post-Flood Accessibility of Derna, Libya as we are concerned with the landscape of Derna. As mentioned in our motivation, Libya is particularly vulnerable to floods, given their geographic location, therefore there is some expectation that certain disasters could potentially happen, such as tsunamis.
 
 Given the limited capacity to respond effectively to disasters in Libya, compounded by the challenging socio-economic conditions that often leave citizens' needs unmet, we aim to leverage GIS for valuable insights. These insights can potentially aid humanitarian efforts, contributing to the well-being of vulnerable communities in Derna, Libya. While external rescue teams play a crucial role, empowering citizens with preparedness knowledge is equally vital. Understanding the city's existing infrastructure further underscores the significance of being well-informed and prepared for such challenges.
 
-#### **Task 2: Gather map data from the Humanitarian Data Exchange**
+### **Task 2: Gather map data from the Humanitarian Data Exchange**
 
 We first gather GIS data layers (i.e. Education, Healthcare Facilities, Libya Population Density DEM, road network), which can be downloaded from \'Libya Floods\' at the Humanitarian Data Exchange portal. These layers are in the WGS_84, the default CRS (Coordinate Reference System), which we must convert to \"EPSG:3177 - LGD2006/ Libya TM" for the Derna region.
 
