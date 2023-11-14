@@ -10,7 +10,7 @@ Given the limited capacity to respond effectively to disasters in Libya, compoun
 
 ### **Task 2: Gather map data from the Humanitarian Data Exchange**
 
-We first gather GIS data layers (i.e. Education, Healthcare Facilities, Libya Population Density DEM, road network), which can be downloaded from \'Libya Floods\' at the Humanitarian Data Exchange portal. These layers are in the WGS_84, the default CRS (Coordinate Reference System), which we must convert to \"EPSG:3177 - LGD2006/ Libya TM" for the Derna region.
+We first gather GIS data layers (i.e. Education, Healthcare Facilities, Libya Population Density DEM, road network), which can be downloaded from 'Libya Floods' at the Humanitarian Data Exchange portal. These layers are in the WGS_84, the default CRS (Coordinate Reference System), which we must convert to "EPSG:3177 - LGD2006/ Libya TM" for the Derna region.
 
 Additionally, apart from relying on the OpenStreetMap layer that can be found on GIS itself, we also relied on Google Maps as supplementary data for the road network layer we got from the Humanitarian Data Exchange website. This is because, the road network had broken paths, which, would make it harder to analyse the differences between when it is flooded and when it is not.
 
@@ -20,16 +20,16 @@ Next, layers that were downloaded from the Humanitarian Data Exchange portal wou
 
 **Geo-process chosen datasets, do vector Interpretation and symbolisation**
 
-Without a doubt, because of the need to have supplementary data (i.e. Google Maps) for our road layer, we would need to pre-process the data, and we would do so by using functions like \'CLIP\' to clip all the layers to the given analytical hexagon layer of Derna. However, the actual analytical hexagon layer that we would be using would be the one we generated. This is because the given analytical hexagon layer itself is 250m in size, which is far too big in our group\'s opinion as there were also facilities that were placed into 1 hexagon, making it harder to analyse, thus reducing the same to 100m. Symbolisation is a given such that we would need to distinguish between the schools (i.e. education facilities) and the healthcare facilities. 
+Without a doubt, because of the need to have supplementary data (i.e. Google Maps) for our road layer, we would need to pre-process the data, and we would do so by using functions like 'CLIP' to clip all the layers to the given analytical hexagon layer of Derna. However, the actual analytical hexagon layer that we would be using would be the one we generated. This is because the given analytical hexagon layer itself is 250m in size, which is far too big in our group's opinion as there were also facilities that were placed into 1 hexagon, making it harder to analyse, thus reducing the same to 100m. Symbolisation is a given such that we would need to distinguish between the schools (i.e. education facilities) and the healthcare facilities. 
 
 **Multiple Maps Generated**
 
 We decided to generate **three** types of maps: 
 
-1 - Overview of Derna\'s Flood
+1 - Overview of Derna's Flood
 
 2 - Accessibility of Demand (by foot and by vehicle)
 
 3 - Service Areas (that can reach its surrounding areas within 5 minutes)
 
-![](Images/GIS Methodology.png){fig-align="center"}
+![](Images/GIS%20Methodology.png){fig-align="center"}

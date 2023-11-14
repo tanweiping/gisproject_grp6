@@ -21,7 +21,7 @@ website:
         text: Home
       - href: about.html
         text: Our Team
-        
+    
 format:
   html:
     theme:
@@ -29,5 +29,5 @@ format:
       dark: darkly
     css: styles.css
     toc: true
-
+  
 editor: visual

@@ -122,7 +122,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#task-1-brainstorm-on-scope-based-on-theme-and-context-of-study" id="toc-task-1-brainstorm-on-scope-based-on-theme-and-context-of-study" class="nav-link active" data-scroll-target="#task-1-brainstorm-on-scope-based-on-theme-and-context-of-study"><strong>Task 1: Brainstorm on scope based on theme and context of study</strong></a></li>
+  <li><a href="#task-2-gather-map-data-from-the-humanitarian-data-exchange" id="toc-task-2-gather-map-data-from-the-humanitarian-data-exchange" class="nav-link" data-scroll-target="#task-2-gather-map-data-from-the-humanitarian-data-exchange"><strong>Task 2: Gather map data from the Humanitarian Data Exchange</strong></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -144,22 +151,22 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="task-1-brainstorm-on-scope-based-on-theme-and-context-of-study" class="level4">
-<h4 class="anchored" data-anchor-id="task-1-brainstorm-on-scope-based-on-theme-and-context-of-study"><strong>Task 1: Brainstorm on scope based on theme and context of study</strong></h4>
+<section id="task-1-brainstorm-on-scope-based-on-theme-and-context-of-study" class="level3">
+<h3 class="anchored" data-anchor-id="task-1-brainstorm-on-scope-based-on-theme-and-context-of-study"><strong>Task 1: Brainstorm on scope based on theme and context of study</strong></h3>
 <p>From the 3 subtopics given to us, we chose to do on Post-Flood Accessibility of Derna, Libya as we are concerned with the landscape of Derna. As mentioned in our motivation, Libya is particularly vulnerable to floods, given their geographic location, therefore there is some expectation that certain disasters could potentially happen, such as tsunamis.</p>
 <p>Given the limited capacity to respond effectively to disasters in Libya, compounded by the challenging socio-economic conditions that often leave citizens’ needs unmet, we aim to leverage GIS for valuable insights. These insights can potentially aid humanitarian efforts, contributing to the well-being of vulnerable communities in Derna, Libya. While external rescue teams play a crucial role, empowering citizens with preparedness knowledge is equally vital. Understanding the city’s existing infrastructure further underscores the significance of being well-informed and prepared for such challenges.</p>
 </section>
-<section id="task-2-gather-map-data-from-the-humanitarian-data-exchange" class="level4">
-<h4 class="anchored" data-anchor-id="task-2-gather-map-data-from-the-humanitarian-data-exchange"><strong>Task 2: Gather map data from the Humanitarian Data Exchange</strong></h4>
-<p>We first gather GIS data layers (i.e.&nbsp;Education, Healthcare Facilities, Libya Population Density DEM, road network), which can be downloaded from 'Libya Floods' at the Humanitarian Data Exchange portal. These layers are in the WGS_84, the default CRS (Coordinate Reference System), which we must convert to "EPSG:3177 - LGD2006/ Libya TM” for the Derna region.</p>
+<section id="task-2-gather-map-data-from-the-humanitarian-data-exchange" class="level3">
+<h3 class="anchored" data-anchor-id="task-2-gather-map-data-from-the-humanitarian-data-exchange"><strong>Task 2: Gather map data from the Humanitarian Data Exchange</strong></h3>
+<p>We first gather GIS data layers (i.e.&nbsp;Education, Healthcare Facilities, Libya Population Density DEM, road network), which can be downloaded from ‘Libya Floods’ at the Humanitarian Data Exchange portal. These layers are in the WGS_84, the default CRS (Coordinate Reference System), which we must convert to “EPSG:3177 - LGD2006/ Libya TM” for the Derna region.</p>
 <p>Additionally, apart from relying on the OpenStreetMap layer that can be found on GIS itself, we also relied on Google Maps as supplementary data for the road network layer we got from the Humanitarian Data Exchange website. This is because, the road network had broken paths, which, would make it harder to analyse the differences between when it is flooded and when it is not.</p>
 <p><strong>Populate GeoPackage</strong></p>
 <p>Next, layers that were downloaded from the Humanitarian Data Exchange portal would be saved into the GeoPackage before we do symbolisation for the different layers.</p>
 <p><strong>Geo-process chosen datasets, do vector Interpretation and symbolisation</strong></p>
-<p>Without a doubt, because of the need to have supplementary data (i.e.&nbsp;Google Maps) for our road layer, we would need to pre-process the data, and we would do so by using functions like 'CLIP' to clip all the layers to the given analytical hexagon layer of Derna. However, the actual analytical hexagon layer that we would be using would be the one we generated. This is because the given analytical hexagon layer itself is 250m in size, which is far too big in our group's opinion as there were also facilities that were placed into 1 hexagon, making it harder to analyse, thus reducing the same to 100m. Symbolisation is a given such that we would need to distinguish between the schools (i.e.&nbsp;education facilities) and the healthcare facilities.&nbsp;</p>
+<p>Without a doubt, because of the need to have supplementary data (i.e.&nbsp;Google Maps) for our road layer, we would need to pre-process the data, and we would do so by using functions like ‘CLIP’ to clip all the layers to the given analytical hexagon layer of Derna. However, the actual analytical hexagon layer that we would be using would be the one we generated. This is because the given analytical hexagon layer itself is 250m in size, which is far too big in our group’s opinion as there were also facilities that were placed into 1 hexagon, making it harder to analyse, thus reducing the same to 100m. Symbolisation is a given such that we would need to distinguish between the schools (i.e.&nbsp;education facilities) and the healthcare facilities.&nbsp;</p>
 <p><strong>Multiple Maps Generated</strong></p>
 <p>We decided to generate <strong>three</strong> types of maps:&nbsp;</p>
-<p>1 - Overview of Derna's Flood</p>
+<p>1 - Overview of Derna’s Flood</p>
 <p>2 - Accessibility of Demand (by foot and by vehicle)</p>
 <p>3 - Service Areas (that can reach its surrounding areas within 5 minutes)</p>
 <div class="quarto-figure quarto-figure-center">
