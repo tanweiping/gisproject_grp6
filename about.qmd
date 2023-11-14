@@ -7,3 +7,5 @@ Here are our team members!
 1.  May
 2.  Wei Ping
 3.  Hazyra
+
+![](Images/GrpPoster.jpg){fig-align="center"}
