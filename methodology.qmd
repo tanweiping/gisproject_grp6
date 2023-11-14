@@ -2,7 +2,7 @@
 title: "Methodology"
 ---
 
-![](Images/GIS%20Methodology.png){fig-align="center"}
+![](Images/GIS Methodology.png){fig-align="center"}
 
 ### **Task 1: Brainstorm on scope based on theme and context of study**
 
