@@ -33,7 +33,7 @@ As we can see from the map, there are 6 healthcare facilities and 5 evacuation s
 #### **2A Health facilities \[on vehicles\]**
 
 |                                                                                                                                 |                                                                                                                            |
-|---------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------|-----------------------------------|
 | **Pre-Flood**                                                                                                                   | **Post-Flood**                                                                                                             |
 | ![](Images/%5Bmap2%5D%20accessibility/Healthcare%20Facility%20Accessibility%20on%20vehicle%20%5Bno%20flood%5D.jpg){width="320"} | ![](Images/%5Bmap2%5D%20accessibility/Healthcare%20Facility%20Accessibility%20on%20vehicle%20%5Bflood%5D.jpg){width="339"} |
 
@@ -48,7 +48,7 @@ This situation reflects the need to have **more healthcare facilities that are s
 #### 2B Health facilities \[on foot\]
 
 | Pre-Flood                                                                                                                    | Pre-Flood                                                                                                               |
-|------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------|-----------------------------------|
 | ![](Images/%5Bmap2%5D%20accessibility/Healthcare%20Facility%20Accessibility%20on%20foot%20%5Bno%20flood%5D.jpg){width="335"} | ![](Images/%5Bmap2%5D%20accessibility/Healthcare%20Facility%20Accessibility%20on%20foot%20%5Bflood%5D.jpg){width="323"} |
 
 In the pre-flood situation, the accessibility to the healthcare facilities on foot shows a concerning phenomenon as even when there is no flood and impedance to the movement of people in Derna city, the healthcare facilities remain inaccessible. This is because there are a lot of roads that are not suitable for pedestrians to walk on and passing through these roads might be dangerous for the pedestrians and drivers who would need to keep a lookout for pedestrians who might just walk on roads that are not meant for them. This is especially prevalent in the eastern side of Derna city where the citizens do not have accessible and safe pathways to navigate to the healthcare facilities like hospitals and clinics should they need to as they are mainly concentrated in the central area that surrounds Wadi Derna. For the people who stay near the respective healthcare facilities, they seem to face no issue and there are ample roads that are suitable for them to navigate their way. This implies that there is accessibility inequality whereby people living in the East do not have ample pedestrian roads suitable for them to access the nearby healthcare facilities safely.
@@ -68,7 +68,7 @@ Therefore, there should be **changes to the existing roads infrastructure to ope
 #### 2C Education on vehicle
 
 | Pre-Flood                                                                                                         | Post-Flood                                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+|-------------------------------------|-----------------------------------|
 | ![](Images/%5Bmap2%5D%20accessibility/Education%20Facility%20Accessibility%20on%20vehicle%20%5Bno%20flood%5D.jpg) | ![](Images/%5Bmap2%5D%20accessibility/Education%20Facility%20Accessibility%20on%20vehicle%20%5Bflood%5D.jpg) |
 
 The distribution of education facilities which could potentially act as evacuation centres to host displaced residents is uneven. The West side of Derna City only has 1 education facility that the residents living in that area will most likely congregate at, potentially causing a strain in resources. 
@@ -82,7 +82,7 @@ The situation might potentially be worsened if residents living or working near 
 #### **2D Education on foot**
 
 | Pre-Flood                                                                                                      | Post-Flood                                                                                                |
-|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+|-------------------------------------|-----------------------------------|
 | ![](Images/%5Bmap2%5D%20accessibility/Education%20Facility%20Accessibility%20on%20foot%20%5Bno%20flood%5D.jpg) | ![](Images/%5Bmap2%5D%20accessibility/Education%20Facility%20Accessibility%20on%20foot%20%5Bflood%5D.jpg) |
 
 The accessibility to the education facilities on foot shows that when there is no occurrence of flood and movement in Derna is not impeded, the education facilities which serve as evacuation centres are by and large accessible to people. However, for the people who reside near the bridge that connects the west and east side of Derna, their trip to the education facilities might pose some danger as roads there are not completely accessible via foot and consist of large highways. 
