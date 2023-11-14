@@ -12,4 +12,4 @@ Here are our team members!
 
 ![](Images/GrpPoster.jpg){fig-align="center"}
 
-We would like to thank Prof Kam Tin Seong for his close guidance in this project\~
+We would like to thank Prof Kam Tin Seong for his close guidance in this project!
