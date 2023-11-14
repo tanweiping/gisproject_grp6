@@ -7,3 +7,5 @@ Welcome to our GIS Project Website!
 Here is an outlook of our project:
 
 ![](Images/GIS%20Poster.png){fig-align="center"}
+
+You may download our poster [here](https://drive.google.com/file/d/1cfY1vozepA9gQyoG6XRHBVW8FLZrZsiY/view?usp=sharing).
