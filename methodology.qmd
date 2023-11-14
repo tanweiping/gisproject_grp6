@@ -2,8 +2,6 @@
 title: "Methodology"
 ---
 
-![](Images/GIS Methodology.png){fig-align="center"}
-
 ### **Task 1: Brainstorm on scope based on theme and context of study**
 
 From the 3 subtopics given to us, we chose to do on Post-Flood Accessibility of Derna, Libya as we are concerned with the landscape of Derna. As mentioned in our motivation, Libya is particularly vulnerable to floods, given their geographic location, therefore there is some expectation that certain disasters could potentially happen, such as tsunamis.
@@ -33,3 +31,5 @@ We decided to generate **three** types of maps: 
 2 - Accessibility of Demand (by foot and by vehicle)
 
 3 - Service Areas (that can reach its surrounding areas within 5 minutes)
+
+![](Images/GIS Methodology.png){fig-align="center"}
