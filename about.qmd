@@ -1,6 +1,8 @@
----
-title: "Team Members"
----
+### GitHub Repository
+
+You may access our GitHub repository [here](https://github.com/tanweiping/gisproject_grp6).
+
+### Team Members
 
 Here are our team members!
 
@@ -9,7 +11,5 @@ Here are our team members!
 3.  Hazyra
 
 ![](Images/GrpPoster.jpg){fig-align="center"}
-
-You may access our GitHub repository [here](https://github.com/tanweiping/gisproject_grp6).
 
 We would like to thank Prof Kam Tin Seong for his close guidance in this project\~
